@@ -1,6 +1,6 @@
 # Assembler for KGP-RISC
 
-The assembler script (written in Python) is provided in the repository to turn the kgp-risc assembly language into machine code. An example assembly program is provided in the repository: [recursive_fibonacci.s](https://github.com/nikhilsaraswat2605/KGP-RISC-Processor/blob/master/Test%20Files/bubble.s)
+The assembler script (written in Python) is provided in the repository to turn the kgp-risc assembly language into machine code. An example assembly program is provided in the repository: [bubble.s](https://github.com/nikhilsaraswat2605/KGP-RISC-Processor/blob/master/Test%20Files/bubble.s)
 
 Use the following command to assemble the source code into machine code:
 ```
