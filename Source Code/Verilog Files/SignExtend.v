@@ -1,0 +1,15 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// name - Amit Kumar, Nikhil Saraswat
+// Roll- 20CS30003, 20CS10039
+// COA - KGP_RISC
+//////////////////////////////////////////////////////////////////////////////////
+module SignExtend(
+inp,out
+    );
+	input [15:0] inp;
+	output [31:0] out;
+	
+	assign out ={{16{inp[15]}},inp};
+
+endmodule
